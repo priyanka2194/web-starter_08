@@ -1,0 +1,99 @@
+@import '_colors.scss';
+@import '_fonts.scss';
+@import '_urls.scss';
+@import '_mixins.scss';
+
+
+// Your CSS/SCSS below this line
+
+body{
+  background: linear-gradient( black,red,black);
+}
+
+p{
+  color: $text;
+  font-family: 'Poiret one', cursive;
+}
+
+.coverImage{
+text-align: center
+}
+
+.jumbotron{
+  background: $customJumbotron;
+}
+
+.bandInfo{
+  background-color: $textBackground;
+  color: $font-color;
+  margin-top: 20px;
+  text-align: center;
+  font-size: $size;
+}
+
+h1,h2,h3,h4{
+  color: $font-color;
+  margin-top: 20px;
+  text-align: center;
+  font-size: $size + 20;
+  font-family: 'Abril-Fatface', cursive;
+}
+
+h4{
+  font-size: $size + 10;
+}
+
+.lead{
+  background-color: $textBackground;
+  color: $font-color;
+  margin-top: 20px;
+  text-align: center;
+  font-size: $size;
+
+}
+
+#mainContainer{
+  padding: 20px;
+}
+
+button{
+  background-color: $buttonColor;
+  border-radius: 20px;
+  padding: 10px;
+  border: 2px solid white;
+  color: $font-color;
+}
+
+button:hover{
+  background-color: black;
+  color: $infoContainer;
+}
+
+#button1:hover{
+  background-color: black;
+  color: $infoContainer;
+}
+
+#button2:hover{
+  background-color: black;
+  color: $infoContainer;
+}
+
+#button1, #button2{
+
+  background-color: $buttonColor;
+  border-radius: 20px;
+  padding: 10px;
+  border: 2px solid black;
+  color: $font-color;
+
+}
+
+#Card1, #Card2{
+  background: $cardColor;
+}
+
+
+.footer{
+  font-size: $size + 30;
+}
